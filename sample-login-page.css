@@ -1,0 +1,112 @@
+body{
+    background-image: url(sample-login-page-background-img.jpg);
+}
+h1{
+    color: white;
+    text-align: center;
+}
+h4{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: beige;
+    margin-bottom: 100px;
+}
+.username{
+    margin-left: 150px;
+    font-size: 20px;
+    
+}
+.labels{
+    font-size:25px;
+    font-weight: bolder; 
+    margin-left: 300px;
+    color: greenyellow;
+}
+.gender{
+    font-size:25px;
+    font-weight: bolder; 
+    color: greenyellow;
+    margin-left: 300px;
+}
+.male{
+    text-align: center;
+    font-size:20px;
+    font-weight: bolder; 
+    margin-left: 300px;
+    color: rgb(215, 120, 152);
+}
+.female{
+    text-align: center;
+    font-size:20px;
+    font-weight: bolder; 
+    color: rgb(215, 120, 152);
+}
+.DOB{
+    font-size:25px;
+    font-weight: bolder; 
+    color: greenyellow;
+    margin-left: 300px;  
+}
+.email{
+    font-size:25px;
+    font-weight: bolder; 
+    color: greenyellow;
+    margin-left: 300px;
+}
+.login{
+   font-size:25px;
+    font-weight: bolder; 
+    color: greenyellow;
+    margin-left: 300px;  
+}
+.yes-no-button{
+    border:rgb(88, 88, 237);
+    background-color: rgb(58, 153, 153);
+    color: azure;
+    width: 10%; 
+    height: 25px; 
+    border-radius: 2px;
+    cursor: pointer; 
+    border-style: solid;
+    font-weight: bold;
+    transition: 1s;
+}
+#yes:hover{
+    background-color: red;
+}
+#no:hover{
+    background-color: green;
+}
+
+#submit{
+    background-color: rgb(225, 225, 64);
+    margin-left: 450px;
+    width: 10%; 
+    height: 25px; 
+    border-radius: 2px;
+    cursor: pointer; 
+    font-weight: bold;
+    transition: 1s;
+    color: black;
+    border: 2px black;
+}
+#exit{
+    background-color:rgb(225, 225, 64);
+    margin-left: 30px;
+    width: 10%; 
+    height: 25px; 
+    border-radius: 2px;
+    cursor: pointer; 
+    font-weight: bold;
+    transition: 1s;
+    color: black;
+    border: 2px black;
+}
+#submit:hover{
+        background-color: rgb(204, 76, 204);
+}
+#exit:hover{
+        background-color: rgb(204, 76, 204);
+}
+
+
