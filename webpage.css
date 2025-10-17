@@ -1,0 +1,88 @@
+body{
+   background-color: rgb(238, 177, 188);
+}
+*{
+    margin:0;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 30px;
+}
+.nav-links{
+    display: flex;
+    gap: 33px;
+    list-style-type: none;
+    font-size: 20px;
+}
+.nav-btns{
+    display: flex;
+    gap: 30px;
+}
+.sign-btn{
+    color:rgb(117, 4, 117) ;
+    background-color: aliceblue;
+    height: 40px;
+    width: 40%;
+    border: none;
+    border-radius: 10px;
+    font-weight: bolder;
+}
+.free-btn{
+    color:white;
+    background-color: rgb(117, 4, 117) ;
+    height: 40px;
+    width: 60%;
+    border: none;
+    border-radius: 10px;
+    font-weight: bolder;
+}
+.text{
+    max-width: 40%;
+    padding: 30px;
+}
+.srt-for-free-btn{
+    background-color:rgb(117, 4, 117);
+    height: 40px;
+    width: 10%;
+    border: none;
+    border-radius: 10px;
+    font-weight: bolder;
+    color: aliceblue;
+    margin: 20px;
+}
+.Watch-btn{
+    background-color:white;
+    height: 40px;
+    width: 10%;
+    border: none;
+    border-radius: 10px;
+    font-weight: bolder;
+}
+.nums{
+    display:flex;
+    margin-left: 30px;
+    font-size: 20px;   
+}
+.imgs{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.tenk{
+    font-size: 2em;
+    font-weight: bolder;
+    margin-right: 160px;
+}
+.my{
+    display:flex;
+    margin-left: 30px;
+    font-size: 20px;
+}
+.my1{
+   margin-right: 60px; 
+}
+
+
+
